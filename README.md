@@ -4,3 +4,5 @@
 <h4>index</h4>
 <h6>array.prototype.map</h6>
  - tested in: Chrome, Firefox, IE9, 8, 7
+ - <h6>array.prototype.filter</h6>
+ - tested in: Chrome, Firefox, IE9, 8, 7
