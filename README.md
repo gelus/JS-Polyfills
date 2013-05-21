@@ -7,3 +7,9 @@
  
 <h6>array.prototype.filter</h6>
  - tested in: Chrome, Firefox, IE9, 8, 7
+
+ <h6>array.prototype.every</h6>
+ - tested in: Chrome, Firefox, IE9, 8, 7
+ 
+ <h6>array.prototype.some</h6>
+ - tested in: Chrome, Firefox, IE9, 8, 7
