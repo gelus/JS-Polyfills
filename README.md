@@ -2,12 +2,13 @@
 <p>A growing collection.</p>
 <hr>
 <h4>Filled:</h4>
-<p>
-array.prototype.forEach <br>
-array.prototype.map <br>
-array.prototype.filter <br>
-array.prototype.every <br>
-array.prototype.some <br>
-array.prototype.reduce <br>
-array.prototype.reduceRight
-</p>
+ - array.prototype.forEach
+ - array.prototype.map
+ - array.prototype.filter
+ - array.prototype.every
+ - array.prototype.some
+ - array.prototype.reduce
+ - array.prototype.reduceRight
+
+<br />
+<sub>tesed in Chrome, Firefox, IE987</sub>
