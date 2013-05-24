@@ -9,6 +9,8 @@
  - array.prototype.some
  - array.prototype.reduce
  - array.prototype.reduceRight
+ - array.prototype.indexOf
+ - array.prototype.lastIndexOf
 
 <br />
 <sub>tesed in Chrome, Firefox, IE987</sub>
