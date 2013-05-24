@@ -1,14 +1,13 @@
-(function(){
-	if([].filter)return
-		Array.prototype.filter = function(f,t){
-			var Rar = []
-				,	i = 0;
-			while(i<this.length){
-				if(i in this){
-					if(f.call(t,this[i], i, this))Rar.push(this[i]);
-				}
-				i++
+if(![].filter){
+	Array.prototype.filter = function(f,t){
+		var Rar = []
+			,	i = 0;
+		while(i<this.length){
+			if(i in this){
+				if(f.call(t,this[i], i, this))Rar.push(this[i]);
 			}
-			return Rar;
+			i++
 		}
-})()
+		return Rar;
+	}
+}

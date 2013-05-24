@@ -1,5 +1,4 @@
-(function(){
-	if([].reduce)return
+if(![].reduce){
 	Array.prototype.reduce = function(f,init){
 		var	i = 0
 			, Rar = (init)? init:this[i++];
@@ -11,4 +10,4 @@
 		}
 		return Rar
 	}
-})()
+}

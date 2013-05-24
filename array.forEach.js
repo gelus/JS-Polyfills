@@ -1,5 +1,4 @@
-(function(){
-	if([].forEach)return
+if(![].forEach){
 	Array.prototype.forEach = function(f,t){
 		var i = 0;
 		while(i < this.length){
@@ -9,4 +8,4 @@
 			i++
 		}
 	}
-})()
+}

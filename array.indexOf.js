@@ -1,5 +1,4 @@
-(function(){
-	if([].indexOf)return
+if(![].indexOf){
 	Array.prototype.indexOf = function(v,i){
 		var i = (i)? i:0;
 		while(i<this.length){
@@ -8,4 +7,4 @@
 		}
 		return -1;
 	}
-})()
+}

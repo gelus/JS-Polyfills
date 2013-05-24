@@ -1,5 +1,4 @@
-(function(){
-	if([].lastIndexOf)return
+if(![].lastIndexOf){
 	Array.prototype.lastIndexOf = function(v,i){
 		var i = (i)? i:this.length;
 		while(i>=0){
@@ -8,4 +7,4 @@
 		}
 		return -1;
 	}
-})()
+}
