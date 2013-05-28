@@ -11,6 +11,7 @@
  - array.prototype.reduceRight
  - array.prototype.indexOf
  - array.prototype.lastIndexOf
+ - array.prototype.isArray
 
 <br />
 <sub>tesed in Chrome, Firefox, IE987</sub>
